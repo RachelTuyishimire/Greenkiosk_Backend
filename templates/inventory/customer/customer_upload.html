@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Customer information</title>
 </head>
-<body>
-    <form method="POST" class="upload-form">
+<body> 
+    <h1>Upload  Customer information</h1>
+    <form method="POST"  class="upload-form">
        {% csrf_token%}
        {{form.as_p}}
 
